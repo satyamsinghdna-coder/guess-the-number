@@ -3,6 +3,7 @@ def show_rules():
     print("\n","="*80,"\nGuess The Number Between 1 and 100")
     print("You Have only 7 attempts")
 play = 0
+score=0
 while True:
     num = random.randint(1,100)
     attempts=0
@@ -20,15 +21,18 @@ while True:
                 attempts+=1
                 print("Your Guess is Correct✅\n You Guess The Number in",attempts,"Attempts")
                 play = 1
+                score +=1
                 break
         except ValueError:
             print("Please Enter Only Numbers")
             continue
     if play ==1:
         print("You Are Winner")
+        print("Score: ",score)
         play=0
     else:
         print("Game over")
+        print("Score: ",score)
     
     print("-"*80,"\nChoices","-"*80)
     print("1.Play Again")
