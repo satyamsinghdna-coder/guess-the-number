@@ -36,3 +36,7 @@ python guess_the_number.py
 ## 👨‍💻 Project
 
 This is one of my first Python projects while learning programming.
+
+## 📸 Screenshot
+
+![Guess The Number Game](screenshot.png)
