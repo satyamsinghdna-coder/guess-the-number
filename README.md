@@ -1,42 +1,64 @@
-# 🎮 Guess The Number
+# 🎮 My Python Games
 
-A simple **Python guessing game** where the computer randomly selects a number between **1 and 100**.
+Welcome to my Python Games project! 🚀
+
+This project contains two simple games made using Python.
+
+## 🎯 Games
+
+### 1. Guess The Number 🔢
+
+In this game, the computer chooses a random number between **1 and 100**.
 
 You have **7 attempts** to guess the correct number.
 
-## ✨ Features
+### 2. Rock Paper Scissors 🥌📃✂️
 
-* 🎲 Random number generation
-* 🔢 Number between 1 and 100
-* 🎯 7 attempts
-* ⬆️ High / ⬇️ Low hints
-* 🔄 Play Again option
-* ❌ Input validation
+Play Rock Paper Scissors against the computer.
 
-## 🐍 Language
+The computer randomly chooses:
 
-**Python**
+* 🥌 Stone
+* 📃 Paper
+* ✂️ Scissor
 
-## ▶️ How to Run
+## 📁 Project Structure
 
-Run the following command:
-
-```bash
-python guess_the_number.py
+```text
+My-Python-Games/
+│
+├── main.py
+├── guess_number.py
+├── rock_paper_scissors.py
+└── README.md
 ```
 
-## 🎮 How to Play
+## ▶️ How To Run
 
-1. Run the program.
-2. Enter a number between 1 and 100.
-3. The game tells you if your guess is too high or too low.
-4. Try to guess the number within 7 attempts.
-5. Choose whether you want to play again.
+Make sure Python is installed on your computer.
 
-## 👨‍💻 Project
+Then run:
 
-This is one of my first Python projects while learning programming.
+```bash
+python main.py
+```
 
-## 📸 Screenshot
+## ✨ Features
 
-![Guess The Number Game](screenshot.png)
+* 🎮 Multiple games
+* 🎲 Random computer choices
+* 🏆 Score system
+* 💖 Limited attempts in Guess The Number
+* 🔄 Play Again option
+* ⚠️ Input validation
+
+## 🛠️ Technologies Used
+
+* Python 🐍
+* `random` module
+
+## 👨‍💻 Author
+
+**Satyam**
+
+Made with ❤️ and Python 🐍
